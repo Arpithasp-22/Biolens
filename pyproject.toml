@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biolens"
+version = "0.1.0"
+description = "Agentic biomedical literature research: MCP tools, hybrid RAG, citation verification, observability and evals"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+openai = ["openai>=1.40"]
+gemini = ["google-genai>=1.0"]
+rerank = ["sentence-transformers>=3.0"]
+dashboard = ["streamlit>=1.35", "pandas>=2.0"]
+dev = ["pytest>=8.0", "streamlit>=1.35", "pandas>=2.0"]
+
+[project.scripts]
+biolens = "biolens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+biolens = ["data/*.jsonl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,8 @@
+{"id": "q1", "question": "Does zorvalin reduce relapse in Marrow-Hartwell syndrome?", "relevant_pmids": ["DEMO0001", "DEMO0002", "DEMO0003"], "must_include": [["41%", "41 percent"]], "answerable": true}
+{"id": "q2", "question": "What are the side effects of lumeral?", "relevant_pmids": ["DEMO0004"], "must_include": [["hepatic"], ["8%"]], "answerable": true}
+{"id": "q3", "question": "Which genetic marker is linked to severity of Marrow-Hartwell syndrome?", "relevant_pmids": ["DEMO0006"], "must_include": [["HRTW2"]], "answerable": true}
+{"id": "q4", "question": "Is zorvalin safe during pregnancy?", "relevant_pmids": ["DEMO0011"], "must_include": [["malformations"]], "answerable": true}
+{"id": "q5", "question": "How effective is the Brindle fever vaccine?", "relevant_pmids": ["DEMO0013"], "must_include": [["76%"]], "answerable": true}
+{"id": "q6", "question": "How does lumeral compare with zorvalin?", "relevant_pmids": ["DEMO0003"], "must_include": [["0.61"], ["0.82"]], "answerable": true}
+{"id": "q7", "question": "Did exercise improve walking distance in Marrow-Hartwell syndrome trials since 2020?", "relevant_pmids": ["DEMO0009"], "must_include": [["38 meters"]], "answerable": true, "filters": {"year_min": 2020}}
+{"id": "q8", "question": "What is the effect of zorvalin on Parkinson's disease?", "relevant_pmids": [], "must_include": [], "answerable": false}
